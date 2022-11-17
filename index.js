@@ -21,4 +21,8 @@ app.use('/gigs', (req, res) => {
     res.redirect('https://gigs.mciafc.com')
 })
 
+app.use('/sets/:setname', (req, res) => {
+    res.redirect(`https://sets.mciafc.com/${req.params.setname}`)
+})
+
 app.listen(1738, () => console.log('Active on PORT 1738'))
