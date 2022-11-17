@@ -17,4 +17,8 @@ app.use('/talent', (req, res) => {
     res.redirect('/#Talent')
 })
 
+app.use('/gigs', (req, res) => {
+    res.redirect('https://gigs.mciafc.com')
+})
+
 app.listen(1738, () => console.log('Active on PORT 1738'))
