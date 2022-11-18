@@ -25,4 +25,8 @@ app.use('/sets/:setname', (req, res) => {
     res.redirect(`https://sets.mciafc.com/${req.params.setname}`)
 })
 
+app.use('/equipment', (req, res) => {
+    res.redirect(`https://docs.google.com/document/d/1W8aKsBnBCOlZrZC2G7InNZHMRTnumjWs2d8LKfsEagQ/edit?usp=sharing`)
+})
+
 app.listen(1738, () => console.log('Active on PORT 1738'))
