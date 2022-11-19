@@ -5,7 +5,7 @@ const path = __dirname + '/public/'
 
 
 app.use(cors())
-app.use(express.static(path + 'home'))
+app.use(express.static(path + 'home/dist'))
 
 // homepage
 const homepage = require('./routes/home.js')

@@ -1,9 +1,9 @@
 const express = require('express')
 const router = express.Router();
-const path = __dirname + '/public/'
+const path = require('path')
 
 router.get('/', (req, res) => {
-    res.sendFile(path + 'home/dist')
+    res.sendFile('index.html', {root: path.resolve('public/home/dist')})
 })
 
 
