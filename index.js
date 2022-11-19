@@ -26,7 +26,7 @@ app.use('/sets/:setname', (req, res) => {
 })
 
 app.use('/equipment', (req, res) => {
-    res.redirect(`https://docs.google.com/document/d/1W8aKsBnBCOlZrZC2G7InNZHMRTnumjWs2d8LKfsEagQ/edit?usp=sharing`)
+    res.redirect(`https://docs.google.com/spreadsheets/d/1TCJ0tCgmkN2dp9DVNebDUcWMQnzhv5vU0iRf5Nc-18E/edit?usp=sharing`)
 })
 
 app.listen(1738, () => console.log('Active on PORT 1738'))
