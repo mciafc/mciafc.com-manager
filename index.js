@@ -19,6 +19,10 @@ app.use('/talent', (req, res) => {
     res.redirect('/#Talent')
 })
 
+app.use('/book', (req, res) => {
+    res.redirect('/#Book')
+})
+
 app.use('/gigs', (req, res) => {
     res.redirect('https://gigs.mciafc.com')
 })
